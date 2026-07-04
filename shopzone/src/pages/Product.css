@@ -1,0 +1,32 @@
+.product-page{
+ padding: 40px;   
+}
+.product-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.product-image{
+    border-radius: 10px;
+    width: 350px;
+}
+.product-details{
+    max-width: 500px;
+}
+.desc{
+    margin: 15px 0;
+    color: #555;
+}
+.price{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.add-btn{
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

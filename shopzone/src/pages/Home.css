@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    flex: 1;
+    width: 100%;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.banner h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.banner p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.shop-btn{
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.shop-btn:hover{
+    background: white;
+    color: black;
+    transform: scale(1.05);
+}
