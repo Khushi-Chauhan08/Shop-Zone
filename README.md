@@ -18,4 +18,6 @@ ShopZone is a simple e-commerce web application built using React. It allows use
 - CSS
 - JavaScript (ES6)
 - React Router
+---
 ## Live Link
+-  https://khushi-chauhan08.github.io/Shop-Zone/
